@@ -2,11 +2,10 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-  <table-filter match-schema="LEYENDA" match-name=".*"/>
-  <table-filter match-catalog="LEYENDA" match-name="caballeros"/>
-  <table-filter match-catalog="LEYENDA" match-name="caballeros_espadas"/>
-  <table-filter match-catalog="LEYENDA" match-name="dragones"/>
-  <table-filter match-catalog="LEYENDA" match-name="dragones_princesas"/>
-  <table-filter match-catalog="LEYENDA" match-name="espadas"/>
-  <table-filter match-catalog="LEYENDA" match-name="rosas_conjuros"/>
+  <table-filter match-schema="leyenda" match-name=".*"/>
+  <table-filter match-catalog="leyenda" match-name="caballeros"/>
+  <table-filter match-catalog="leyenda" match-name="caballeros_espadas"/>
+  <table-filter match-catalog="leyenda" match-name="dragones_princesas"/>
+  <table-filter match-catalog="leyenda" match-name="espadas"/>
+  <table-filter match-catalog="leyenda" match-name="rosas_conjuros"/>
 </hibernate-reverse-engineering>
